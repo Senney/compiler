@@ -1,0 +1,22 @@
+// Testing type mismatch errors, no return value.
+
+int add(int a, int b) {
+  return (a == b);
+}
+
+int sub() {
+
+}
+
+void dub() {
+  return;
+}
+
+main() {
+  boolean r;
+  int q;
+  
+  r = add(3, 6);
+  q = add(true, false);
+}
+

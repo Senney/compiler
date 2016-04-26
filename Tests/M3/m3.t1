@@ -1,0 +1,23 @@
+int j;
+
+int add(int a, int b, boolean c) {
+  return a + b;
+}
+
+void woopwoop() {
+  
+}
+
+main() {
+  int k;
+  int r;
+  boolean g;
+  
+  j = 3;
+  k = 4;
+  g = true;
+  
+  add(j, k, g);
+  r = add(j, k, g);
+}
+

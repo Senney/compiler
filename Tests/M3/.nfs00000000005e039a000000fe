@@ -1,0 +1,16 @@
+int j;
+
+int add(int a, int b) {
+  return a + b;
+}
+
+main() {
+  int k;
+  
+  j = 3;
+  k = 4;
+  
+  r = add(j, k);
+  return r;
+}
+

@@ -1,0 +1,40 @@
+Author: Sean Heintz - 10053525
+
+J-- Compiler Readme
+
+BUILDING AND RUNNING
+====================
+-Pre-Requisites-
+- Flex
+- g++
+
+-Building-
+Run the makefile using `make`.
+To run the tests, execute `RunTests.sh`.
+To clean the environment, run `make clean`.
+
+-Running-
+
+-Format of Command-
+Compiler [OPTIONS]* filename
+
+-Example-
+./Compiler -v Tests/M3/m3.t1
+Output:
+ERRORS
+AST
+
+LIMITATIONS
+======================
+I was unable to get make getchar work, so that RTS function is incomplete.
+I ran into issues allocating registers for the large art-* files, so they do not work.
+
+ADDITIONAL INFORMATION
+======================
+This program was written as part of an assignment for CPSC411 - Compiler Construction I at the University of Calgary. Any questions regarding this program may be forwarded to sean.heintz@gmail.com.
+
+Future versions of this program will implement further versions of a compiler that will eventually compile a language called J-- in to ARM Assembly code.
+
+DISCLAIMER
+==========
+Sean Heintz and associated parties ("The Programmer") cannot be held responsible for any damages that occur to the property of any persons due to the execution of this program and associated source code. Any unintended use of this code is not guarenteed to work properly, and The Programmer can not be held liable if executing the associated code leads to loss of data or information. The Programmer would appreciate all bugs being reported, but is not responsible if such a bug does occur.

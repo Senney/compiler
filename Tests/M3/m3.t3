@@ -1,0 +1,15 @@
+// Testing multiple main declarations, invalid number of arguments, attempting to call the main function.
+
+main() {
+  func1(3, 4, 5);	
+  main();
+}
+
+main2() {
+
+}
+
+void func1(int x, int y) {
+
+}
+

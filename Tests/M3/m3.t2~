@@ -1,0 +1,14 @@
+// Testing no main declaration found.
+// Testing invalid return value./
+
+int coolio() {
+	int x;
+	x = 4;
+	
+	return;
+}
+
+int cool2() {
+  return "Test";
+}
+

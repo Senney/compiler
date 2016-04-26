@@ -1,0 +1,17 @@
+void print_int(int n) {
+  if (n == 0) {
+    printc(0);
+    return;
+  }
+  
+  return;
+}
+
+
+main() {
+  int n;
+  
+  n = 3;
+  
+  print_int(n);
+}

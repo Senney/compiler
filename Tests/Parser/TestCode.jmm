@@ -1,0 +1,18 @@
+int foo(int x, int a, int d) {
+  int c;
+  c = x;
+  c = a;
+  c = d;
+
+  return 0;
+}
+
+main() {
+  int test2;
+  
+  test2 = 2;
+  if (test2 < 3) {
+    test2 = 4;
+  }
+
+}
